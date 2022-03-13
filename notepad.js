@@ -1,10 +1,6 @@
-jantarDeHoje = ['🍔', '🌭', '🍕']
+animaisDoAquario = ['🐋', '🐙', '🐬', '🦈']
 
-jantarDeHoje.pop()
-jantarDeHoje.pop()
+animaisDoAquario.splice(1,0,'🐠')
+animaisDoAquario.splice(3,2,'🐟')
 
-jantarDeHoje.push('🍳')
-jantarDeHoje.push('🥗')
-jantarDeHoje.push('🍏')
-
-console.log(jantarDeHoje)
+console.log(animaisDoAquario)
